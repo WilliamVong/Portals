@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    
+
     <section class="container">
         <div class="content">
-            <h1>Scroll to Begin</h1>
-            <p>Start it like this..</p>
+            <h1>The Portal</h1>
+            <h3>William Vongphanith</h3>
         </div>
     </section>
 
@@ -58,14 +58,14 @@
                 el.classList.add('entered');
             }
         })
-    
+
         var frameNumber = 0, // start video at frame 0
         // lower numbers = faster playback
-        playbackConst = 1000, 
+        playbackConst = 1000,
         // get page height from video duration
-        setHeight = document.getElementById("set-height"), 
-        // select video element         
-        vid = document.getElementById('v0'); 
+        setHeight = document.getElementById("set-height"),
+        // select video element
+        vid = document.getElementById('v0');
         // var vid = $('#v0')[0]; // jquery option
 
     // dynamically set the page height according to video length
@@ -75,14 +75,14 @@
 
 
     // Use requestAnimationFrame for smooth playback
-    function scrollPlay(){  
+    function scrollPlay(){
     var frameNumber  = window.pageYOffset/playbackConst;
     vid.currentTime  = frameNumber;
     window.requestAnimationFrame(scrollPlay);
     }
 
     window.requestAnimationFrame(scrollPlay);
-    
+
     </script>
 </body>
 </html>
