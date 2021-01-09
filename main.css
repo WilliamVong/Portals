@@ -114,11 +114,11 @@ section:nth-of-type(5) {
 
 @font-face {
    font-family: Franklin Gothic;
-   src: url(fonts/framd.ttf)
+   src: url(https://github.com/WilliamVong/Portals/tree/master/fonts/framd.ttf)
    format('truetype');
 }
 @font-face {
    font-family: Franklin Book;
-   src: url(fonts/FRABK.TTF)
+   src: url(https://github.com/WilliamVong/Portals/tree/master/fonts/FRABK.TTF)
    format('truetype');
 }
