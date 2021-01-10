@@ -25,6 +25,18 @@ section {
     top: 33.3%;
 }
 
+.title {
+  top: 33.3%;
+  width: 100%;
+  text-align: center;
+
+}
+
+.content-title {
+  margin: 0 auto;
+  text-align: center;
+}
+
 h1 {
     font-size: 6em;
     background: #fff;
@@ -42,7 +54,7 @@ h3 {
     padding: 10px 15px;
     border-radius: 5px;
     margin: 0.1;
-    font-family: Franklin Book;
+    font-family: Franklin Gothic;
 }
 
 .content-box {
@@ -54,7 +66,10 @@ h3 {
   margin: 0.1;
   font-family: Georgia;
   background: #fff;
+}
 
+.center {
+  margin: 0 auto;
 }
 section:nth-of-type(1) {
     height: 1200px;
