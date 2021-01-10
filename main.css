@@ -42,7 +42,7 @@ h3 {
     padding: 10px 15px;
     border-radius: 5px;
     margin: 0.1;
-    font-family: Franklin Book
+    font-family: Franklin Book;
 }
 
 .content-box {
@@ -69,6 +69,66 @@ section:nth-of-type(4) {
     height: 1000px;
 }
 section:nth-of-type(5) {
+    height: 4000px;
+}
+section:nth-of-type(6) {
+    height: 1200px;
+}
+section:nth-of-type(7) {
+    height: 1200px;
+}
+section:nth-of-type(8) {
+    height: 1200px;
+}
+section:nth-of-type(9) {
+    height: 1000px;
+}
+section:nth-of-type(10) {
+    height: 4000px;
+}
+section:nth-of-type(11) {
+    height: 1200px;
+}
+section:nth-of-type(12) {
+    height: 1200px;
+}
+section:nth-of-type(13) {
+    height: 1200px;
+}
+section:nth-of-type(14) {
+    height: 1000px;
+}
+section:nth-of-type(15) {
+    height: 4000px;
+}
+section:nth-of-type(16) {
+    height: 1200px;
+}
+section:nth-of-type(17) {
+    height: 1200px;
+}
+section:nth-of-type(18) {
+    height: 1200px;
+}
+section:nth-of-type(19) {
+    height: 1000px;
+}
+section:nth-of-type(20) {
+    height: 4000px;
+}
+section:nth-of-type(21) {
+    height: 1200px;
+}
+section:nth-of-type(22) {
+    height: 1200px;
+}
+section:nth-of-type(23) {
+    height: 1200px;
+}
+section:nth-of-type(24) {
+    height: 1000px;
+}
+section:nth-of-type(25) {
     height: 4000px;
 }
 
@@ -119,6 +179,6 @@ section:nth-of-type(5) {
 }
 @font-face {
    font-family: Franklin Book;
-   src: url(https://github.com/WilliamVong/Portals/tree/master/fonts/FRABK.TTF)
+   src: url(https://github.com/WilliamVong/Portals/tree/master/fonts/frabk.ttf)
    format('truetype');
 }
