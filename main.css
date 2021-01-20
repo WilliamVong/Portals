@@ -1,8 +1,13 @@
 body {
     font-family: 'Montserrat';
-    padding: 3em;
 }
 
+html {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+
+}
 #v0 {
     position: fixed;
     top: 0;
@@ -11,13 +16,17 @@ body {
     opacity: 0.5;
 }
 
-#set-height {
-    display: block;
+.part2 {
+  background-color: white;
+  width: 100%;
+  z-index:4;
+  margin: 0;
+  position:absolute;
 }
-
 section {
     z-index: 1;
     position: relative;
+    margin: 3em;
 }
 
 body {
@@ -46,18 +55,96 @@ h1 {
     background: #fff;
     display: inline-block;
     padding: 10px 15px;
-    border-radius: 5px;
+    border-radius: 20px;
     margin: 0;
     font-family: Franklin Gothic;
 }
 
+h2 {
+  font-size: 4em;
+  font-family: Franklin Gothic;
+  text-align: center;
+}
+
+.text-thing {
+  font-family: Georgia;
+  font-size: 1.5em;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.btn-group {
+  text-align: center
+}
+
+.btn-group button {
+
+  background-color: #8E1150; /* Green background */
+  border: 1px solid #6E0835; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */ /* Float the buttons side by side */
+  font-family: Georgia;
+  width: 100%;
+  border-radius: 8px;
+  transition: all 0.5s;
+  float: center;
+  text-align: center;
+}
+.btn-group button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn-group button:hover {
+  background-color: #6E0835;
+}
+
+.btn-group button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+
+}
+
+.btn-group button:hover span {
+  padding-right: 25px;
+}
+
+.btn-group button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
 h3 {
     font-size: 3em;
     background: #fff;
     display: inline-block;
     padding: 10px 15px;
-    border-radius: 5px;
-    margin: 0.1;
+    border-radius: 16px;
     font-family: Franklin Gothic;
     position: sticky;
     position: -webkit-sticky;
@@ -68,13 +155,69 @@ h3 {
   display: inline-block;
   width: 400px;
   padding: 10px 15px;
-  border-radius: 5px;
-  margin: 0.1;
+  border-radius: 12px;
   font-family: Georgia;
   background: #fff;
   position: sticky;
   position: -webkit-sticky;
 }
+.part2{
+  padding: 40px;
+  left: 0;
+}
+
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: White;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+
+* {
+  box-sizing:border-box;
+}
+
+@media screen and (max-width: 1000px) {
+  .column-66,
+  .column-33 {
+    width: 100%;
+    text-align: center;
+  }
+  img {
+    margin: auto;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  padding: 64px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+
+.progress-bar {
+  height: 8px;
+  background-color: #6E0835;
+  width: 0%;
+  z-index: 101;
+  top: 0;
+  position: fixed;
+
+}
+
+
 .scroll-item {
   color: white;
   font-size: 2em;
@@ -93,7 +236,7 @@ h3 {
   background-color: {0, 0, 0};
 }
 section:nth-of-type(1) {
-    height: 750px;
+    height: 650px;
 }
 
 section:nth-of-type(2) {
@@ -115,60 +258,7 @@ section:nth-of-type(6) {
 section:nth-of-type(7) {
     height: 1180px;
 }
-section:nth-of-type(8) {
-    height: 1180px;
-}
-section:nth-of-type(9) {
-    height: 1180px;
-}
-section:nth-of-type(10) {
-    height: 1180px;
-}
-section:nth-of-type(11) {
-    height: 1180px;
-}
-section:nth-of-type(12) {
-    height: 1180px;
-}
-section:nth-of-type(13) {
-    height: 1180px;
-}
-section:nth-of-type(14) {
-    height: 1180px;
-}
-section:nth-of-type(15) {
-    height: 1180px;
-}
-section:nth-of-type(16) {
-    height: 1180px;
-}
-section:nth-of-type(17) {
-    height: 1180px;
-}
-section:nth-of-type(18) {
-    height: 1180px;
-}
-section:nth-of-type(19) {
-    height: 1180px;
-}
-section:nth-of-type(20) {
-    height: 1180px;
-}
-section:nth-of-type(21) {
-    height: 1180px;
-}
-section:nth-of-type(22) {
-    height: 1180px;
-}
-section:nth-of-type(23) {
-    height: 1180px;
-}
-section:nth-of-type(24) {
-    height: 1180px;
-}
-section:nth-of-type(25) {
-    height: 1180px;
-}
+
 
 .entered {
 	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
@@ -244,4 +334,10 @@ section:nth-of-type(25) {
    font-family: Franklin Book;
    src: url(https://github.com/WilliamVong/Portals/tree/master/fonts/frabk.ttf)
    format('truetype');
+}
+
+.div2
+{
+  font-family: Georgia;
+  font-size: 1.5em;
 }

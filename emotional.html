@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Emotional Change</title>
+    <link rel="icon" type="image/png" href="assets/favicon-32x32.png" sizes="32x32">
+    <link rel="stylesheet" href="template.css">
+</head>
+<body>
+  <div class="progress-container">
+<div class="progress-bar" id="myBar"></div>
+</div>
+<h2 class="content-title">Emotional / Mental Change</h2>
+<div class="content">My life was pretty tedious and boring BEFORE the pandemic. Taking the train to school every day, learning for 7 hours, then going back home, doing homework, then going to sleep to repeat the process numbed my brain to the point where I did not do anything adventurous or out of my comfort zone. Play new games? Nope. Take new classes? Nope. Try new foods? Maybe, but you get the point. I was taking sufficiently difficult classes at the time, but I did not feel fulfilled. I actually was not taking any extracurriculars at the time (OH MY GOD! WHAT A SACRILEGE!) Life seemed normal, on loop, with the exception of a growing number of cases of an unknown virus named 2019-nCov.</div><img class="img1" src="assets/stuy.jpg"><br><div></div>
+<img class="img2" src="assets/zoom.png"><div class="content">And then it hit us – a stay-at-home order, nobody to talk to, and the risk that we might get sick or lose our lives – a triple whammy. Nevertheless, I looked forward to this event – the first time in my life that I felt this way. And it was a novel experience – for the first 7 days. Afterwards, quarantine became just another schedule – get up, brush teeth, attend school, eat lunch, do homework, sleep again. What sort of life is this when you just do the same thing over and over and over again? Well, the fact that I’m here right now proves that I’ve learned something. </div>
+<div class="content">Over the course of this pandemic, I’ve taught myself to manage stress better, because the pandemic, as a pressure-cooker, really helped build stress up in not just me but pretty much everyone. New circumstances that I was forced into helped build it up. “How will I look on Zoom after I wake up, brush teeth, get dressed, eat breakfast, rush onto the computer and click a link all in 2 minutes? When will I be able to come back outside without a mask? When will we be able to have a normal life again?”. These were all questions I’ve asked myself during the pandemic.</div><img class="img1" src="assets/stress.jpg">
+<img style="width: 250px"class="img2" src="assets/cycle.jpg">
+<div class="content">Also, I’ve learned to pay more attention to people around me during the pandemic. With everyone on remote school in the house, cramped up together 24/7, it is hard to ignore family members that are on our backs every minute (true story). These days, I’ve taught myself to try to help others, feel more compassionate, make more friends (which unfortunately is more difficult through computers) and surprise my family well. In this way, I have felt better in these unprecedented times, and when I receive back from family members, I feel like my efforts throughout these difficult times have been more than worth it.</div>
+</body>
+
+<div style="background-color: white" class="part2">
+<h2> Sections </h2>
+<div class="btn-group" style="width: 80%;margin: 0 auto;">
+  <div class="div2" style="width: 25%;float:left;"><button onclick="window.location.href='index.html';"><a class="link" href="index.html"> <span>Home </span></a></button> <br><br>Home</div>
+  <div class="div2" style="width: 25%;float:left;"><button onclick="window.location.href='intellectual.html';"><a class="link" href="intellectual.html"> <span>Intellectual Changes </span></a></button> <br><br>Here, I talk about what changed for me in intellectual matters.</div>
+  <div class="div2" style="width: 25%;float:left;"><button onclick="window.location.href='takeover.html';"><a class="link" href="takeover.html"> <span>The Coronavirus Takeover</span></a></button> <br><br>Here, I talk about what changed for me in my life directly due to COVID-19.</div>
+  <div class="div2" style="width: 25%;float:left;"><button onclick="window.location.href='references.html';"><a class="link" href="references.html"> <span>References </span></a></button> <br><br>(self explanatory) </div>
+</div>
+
+<script>
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+</script>
+</div>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Intellectual Change</title>
+    <link rel="icon" type="image/png" href="assets/favicon-32x32.png" sizes="32x32">
+    <link rel="stylesheet" href="template.css">
+</head>
+<body>
+  <div class="progress-container">
+<div class="progress-bar" id="myBar"></div>
+</div>
+<h2 class="content-title">Intellectual Change</h2>
+<div class="content">Before the “time of the Rona”, I did not have a lot of time on my hands. A normal day would start by my waking up in the morning at 6:10, leaving the house at 6:30 to get to Stuyvesant at 7:30. From there, school would last until 3:35, where I would commute back to the public library, where I would stay until 5:45, where I made the final leg of my “journey” and arrived at home at 6:00. From there, I would do my homework and have little time for anything else. Therefore, I was not able to advance my curiosity for knowledge far past the edges of the sheets of paper that I did my homework on.</div><img class="img1" src="assets/subway.jpg"><br><div></div>
+<img class="img2" src="assets/quarantine.jpg"><div class="content">And then the Portal opened, on the 23rd of March 2020. My commute disappeared into thin air (along with 1/3rd of the subway cars). Classes, taught through Zoom, were irregular and did not happen even once every day (at least for me). Tout à coup, I had access to an unimaginable amount of free time! What should I do with this time? Should I rest, chat, and play and take life easy (as most Stuyvesant students, if not all, would like to do)? It was what I did at first. I read New York Times (thus the inspiration for the fonts), and this is where I found an article about edX, where I signed up for my first online class outside of school boundaries, CS50x.</div>
+<div class="content">CS50x, as is stated on their homepage, is an “Introduction to the intellectual enterprises of computer science and the art of programming”. “Oh, this will be easy!”, I thought, blissfully unaware of the syllabus contents, or of the name of the school that was offering the course. It wasn’t even a few days until I was regretting my arrogance towards this course, while struggling through Caesar. While I did complete this course, and eventually another one, CS50AI, my attitude towards everything changed dramatically. </div><img class="img1" src="assets/cs50.jpg">
+<img class="img2" src="assets/c.png">
+<div class="content">What I have learned over the course of remote learning and quarantine, is that while something might seem easy, one can learn a lot from even the easiest things. For example, learning C, while I thought I would never do it and would never have to, was extremely beneficial towards my total understanding of computer science. Also, I learned that time, when it is made available, whether by natural circumstances or by unexpected changes, is not meant to be wasted. A pandemic on the scale of this year’s will probably never happen again in our lives, and we will never have time on this scale again. When we work 9-to-5 jobs, and arrive home to 2 kids who need feeding, schooling, and care, will time exist to take care of us?  </div>
+</body>
+
+<div style="background-color: white" class="part2">
+<h2> Sections </h2>
+<div class="btn-group" style="width: 80%;margin: 0 auto;">
+  <div class="div2" style="width: 25%;float:left;"><button onclick="window.location.href='index.html';"><a class="link" href="index.html"> <span>Home </span></a></button> <br><br>Home</div>
+  <div class="div2" style="width: 25%;float:left;"><button onclick="window.location.href='emotional.html';"><a class="link" href="emotional.html"> <span>Emotional Changes </span></a></button> <br><br>Here, I talk about what changed for me in emotional matters.</div>
+  <div class="div2" style="width: 25%;float:left;"><button onclick="window.location.href='takeover.html';"><a class="link" href="takeover.html"> <span>The Coronavirus Takeover</span></a></button> <br><br>Here, I talk about what changed for me in my life directly due to COVID-19.</div>
+  <div class="div2" style="width: 25%;float:left;"><button onclick="window.location.href='references.html';"><a class="link" href="references.html"> <span>References </span></a></button> <br><br>(self explanatory) </div>
+</div>
+
+<script>
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+</script>
+</div>
+</html>
