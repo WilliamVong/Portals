@@ -20,6 +20,28 @@
 <img class="img2" src="assets/c.png">
 <div class="content">What I have learned over the course of remote learning and quarantine, is that while something might seem easy, one can learn a lot from even the easiest things. For example, learning C, while I thought I would never do it and would never have to, was extremely beneficial towards my total understanding of computer science. Also, I learned that time, when it is made available, whether by natural circumstances or by unexpected changes, is not meant to be wasted. A pandemic on the scale of this year’s will probably never happen again in our lives, and we will never have time on this scale again. When we work 9-to-5 jobs, and arrive home to 2 kids who need feeding, schooling, and care, will time exist to take care of us?  </div>
 </body>
+<button onclick="topFunction()" id="myBtn" title="Go to top"><img class="upbutton" src="assets/arrow_up.png"></button>
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
 
 <div style="background-color: white" class="part2">
 <h2> Sections </h2>

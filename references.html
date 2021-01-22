@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Emotional Change</title>
+    <link rel="icon" type="image/png" href="assets/favicon-32x32.png" sizes="32x32">
+    <link rel="stylesheet" href="template.css">
+</head>
+<body>
+  <div class="progress-container">
+<div class="progress-bar" id="myBar"></div>
+</div>
+<button onclick="topFunction()" id="myBtn" title="Go to top"><img class="upbutton" src="assets/arrow_up.png"></button>
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+<h2 class="content-title">References</h2>
+<div class="content">Congrats if you could find this page! I made it hard on purpose, but if needed, here are some references you may find useful when reading this website. Or you can visit the links below after!
+                    <br>Thanks for reading!<br>
+                  <em> - William Vongphanith </em></div>
+                    <img class="img1" src="assets/thx.jpg">
+<img class="img2" style="width: 250px" src="assets/click.png"><br><div></div>
+<div class="content"><strong>Useful links:</strong><br>
+                    <a href="https://cs50.harvard.edu/x/2021/">CS50x, Harvard's Intro to CS</a><br>
+                    <a href="https://cs50.harvard.edu/ai">CS50 AI, Harvard's Intro to AI</a><br>
+                    <a href="https://nytimes.com">The New York Times</a><br>
+                    <a href="https://sites.google.com/stuy.edu/eurolit-period-10/home?authuser=0">Read other people's things</a><br>
+                    <a href="https://docs.google.com/document/d/1d_p1zNmchn3JyPsOssLIkZlwOJezFexy8-Vee6NRfHU/edit">The rubric (you need a stuy account)</a><br>
+                    <a href="https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6">John Hopkins COVID-19 Dashboard</a><br>
+                    <em>I'm not sure how I came up with this list but I hope it helps you!</em>
+                    </div>
+<div style="background-color: white" class="part2">
+<h2> Sections </h2>
+<div class="btn-group" style="width: 80%;margin: 0 auto;">
+  <div class="div2" style="width: 25%;float:left;"><button onclick="window.location.href='index.html';"><a class="link" href="index.html"> <span>Home </span></a></button> <br><br>Home</div>
+  <div class="div2" style="width: 25%;float:left;"><button onclick="window.location.href='emotional.html';"><a class="link" href="emotional.html"> <span>Emotional Changes </span></a></button> <br><br>Here, I talk about what changed for me in emotional matters.</div>
+  <div class="div2" style="width: 25%;float:left;"><button onclick="window.location.href='intellectual.html';"><a class="link" href="intellectual.html"> <span>Intellectual Changes </span></a></button> <br><br>Here, I talk about what changed for me in intellectual matters.</div>
+  <div class="div2" style="width: 25%;float:left;"><button onclick="window.location.href='takeover.html';"><a class="link" href="takeover.html"> <span>The Coronavirus Takeover</span></a></button> <br><br>Here, I talk about what changed for me in my life directly due to COVID-19.</div>
+  <div style="color: #FFEFFF"><a href="references.html" style="color: #DBDBDB">click me!</a>
+
+</div><div>
+  <script>
+  // When the user scrolls the page, execute myFunction
+  window.onscroll = function() {myFunction()};
+
+  function myFunction() {
+    var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    var scrolled = (winScroll / height) * 100;
+    document.getElementById("myBar").style.width = scrolled + "%";
+  }
+  </script>
