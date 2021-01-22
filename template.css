@@ -121,8 +121,9 @@ clear: left
 .part2{
   padding: 40px;
   left: 0;
+  float: left;
   position: relative;
-  float: left
+  width: 100%;
 }
 
 
